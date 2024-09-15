@@ -14,6 +14,8 @@ let make = () => {
 
     <TodoForm.form />
 
+    <TodoList.list />
+
     <Button onClick={_ => setCount(count => count + 1)}>
       {React.string(`count is ${count->Int.toString}`)}
     </Button>
