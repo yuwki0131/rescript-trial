@@ -1,6 +1,5 @@
 @react.component
 let make = () => {
-  let (count, setCount) = React.useState(() => 0)
 
   <div className="p-6">
 
@@ -15,9 +14,5 @@ let make = () => {
     <TodoForm.form />
 
     <TodoList.list />
-
-    <Button onClick={_ => setCount(count => count + 1)}>
-      {React.string(`count is ${count->Int.toString}`)}
-    </Button>
   </div>
 }

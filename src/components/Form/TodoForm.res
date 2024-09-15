@@ -13,7 +13,7 @@ let form = () =>
       </p>
       <textarea />
       <div>
-      <button>{React.string("登録")}</button>
+      <Button>{React.string("登録")}</Button>
       </div>
     </div>
   </div>
