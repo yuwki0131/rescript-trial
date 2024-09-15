@@ -17,6 +17,7 @@ let list = () =>
           <th>{"Task ID"->React.string}</th>
           <th>{"Title"->React.string}</th>
           <th>{"Description"->React.string}</th>
+          <th>{"Controls"->React.string}</th>
         </tr>
       </thead>
       <tbody>
@@ -25,6 +26,13 @@ let list = () =>
             <td>{todo.id->React.string}</td>
             <td>{todo.title->React.string}</td>
             <td>{todo.description->React.string}</td>
+            <td>
+              <div className="control-buttons">
+                <Button>{"編集"->React.string}</Button>
+                <div className="button-space"></div>
+                <Button>{"削除"->React.string}</Button>
+              </div>
+            </td>
           </tr>
         })->React.array}
       </tbody>

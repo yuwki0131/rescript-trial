@@ -13,3 +13,16 @@ th {
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+.todo-list-container {
+  width: 100%;
+}
+
+.button-space {
+  width: 10px;
+}
+
+.control-buttons {
+  display: flex;
+  flex-direction: row;
+}
