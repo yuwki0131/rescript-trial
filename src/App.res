@@ -8,9 +8,10 @@ let make = () => {
       {"TODO APP"->React.string}
     </h1>
     <p>
-      {React.string("This is a simple TODO App for a Vite project using ReScript & Tailwind CSS.")}
+      {React.string("This is a simple TODO App for a Vite project using ReScript.")}
     </p>
     <h2 className="text-2xl font-semibold mt-5"> {React.string("TODO Form")} </h2>
+
     <TodoForm.form />
 
     <Button onClick={_ => setCount(count => count + 1)}>
