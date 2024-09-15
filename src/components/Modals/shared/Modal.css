@@ -7,7 +7,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   z-index: 1000;
 }
@@ -19,4 +19,15 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 1001;
+}
+
+.title {
+ font-weight: bold;
+ font-size: 24px;
+ margin-bottom: 12px;
+}
+
+.close-button {
+  margin-top: 16px;
+  padding: 2px;
 }
